@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body{
+    background-image: url("../images/wood.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+p{
+    text-align: justify;
+}
+h1{
+    border: 2px solid #515151;
+    font-style: italic;
+}
+h2{
+    border-bottom: 2px dotted #000000;
+    text-align: center;
+}
+ol{
+    list-style-type: upper-alpha;
+}
+ul{
+    list-style-image: url('../images/box.png');
+}
+.test{
+    font: 18px  Lucida Console, Monaco, monospace;
+    color:violet;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font: bold 18px Arial, Helvetica, sans-serif;
+}
+a:hover, a:active{
+    text-decoration: underline;
+}
+.droite{
+    float:right;
+}
+.clear{
+    clear: both;
+}

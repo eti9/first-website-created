@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Initiation de développement d'un programme informatique</title>
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+</head>
+
+<body>
+    <h1>Les étapes de développement d'un programme informatique</h1>
+    <a href="../index.html"><img class="droite" src="../images/maison.png" width="100px"></a>
+    <h2 id="analyse" class="clear">L'analyse du problème: le QUOI</h2>
+    <p>
+        IL s'agit de lire l’énoncé du problème et tenter de
+         comprendre ce qu'il doit réaliser , c’est à dire:
+    </p>
+
+    <ul>
+        <li>identifier les données en entrée;</li>
+        <li>identifier les données en sortie ;</li>
+        <li>identifier les traitements (les calculs, les affichages, les comparaisons…)</li>
+    </ul>
+
+    <p>Exemple : Énoncé du problème 1: lire deux nombres et afficher leur somme</p>
+    
+    <dl class="test">
+        <dt>Entrée:</dt>
+        <dd>nombre1, Nombre2 </dd>
+
+        <dt>Traitement :</dt>
+        <dd>somme=nombre1+ nombre2</dd>
+
+        <dt>Sortie :</dt>
+        <dd>somme</dd>
+    </dl>
+
+
+    <h2 id="conception">La conception d’une solution : le COMMENT</h2>
+
+    <p>Cela constitue à écrire un algorithme.</p>
+    <p>
+        Un algorithme est une suite d’actions à exécuter dans un ordre précis, pour résoudre un problème. 
+        L’algorithme représente la structure logique du programme informatique indépendamment du langage de programmation. 
+        Il peut être formulé dans un « pseudo langage » aussi appelé « pseudocode » qui est plus restreint et plus précis que le langage naturel, 
+        mais ne peut être exécuté par un ordinateur.
+    </p>
+    <p>
+        Le pseudo-code utilisé dans les algorithmes renferme quelques mots clés qui 
+        servent à exprimer des actions ou des indications 
+        comme: Début, Fin algo, Faire, Si..Fin Si, Tant que…Fin Tant que etc. 
+        Il peut y avoir plus d’un algorithme pour résoudre un même problème.
+    </p>
+    
+    <h3>Example: Un algorithme du problème 1</h3>
+    <p class="test">
+        Algorithme somme <br>
+        Debut <br>
+        somme, nombre1, nombre2 : entiers <br>
+        Lire nombre1 et nombre 2 <br>
+        somme= nombre1 + nombre2 <br>
+        Afficher somme <br>
+        Fin somme
+    </p>
+    
+    <h2 id="codage"> Le codage (ou programmation)</h2>
+    <p>
+        C’est la transposition de l’algorithme 
+        dans un langage de programmation précis (java, C++, Vb.net...)
+    </p>
+    <p>
+        Un langage de programmation est un langage intermédiaire entre l’homme et la machine. 
+        Il utilise des mots clés et une syntaxe bien définie.
+    </p>
+    <p>
+        La phase d’édition consiste à insérer le texte du programme dans l’ordinateur. 
+        Pour réaliser cette opération, nous utiliserons un programme spécial : l’Éditeur de programme.
+         Dans le cadre de ce cours, nous utiliserons l’outil Éclipse pour éditer nos programmes écrits dans le langage Java.
+    </p>
+
+    <h2 id="traduction">La traduction du programme en langage machine</h2>
+    <p>
+        Cela consiste à traduire en langage machine de bas niveau, 
+        soit le binaire, le programme écrit en langage de programmation de haut niveau. 
+        Cette traduction est réalisée par l’ordinateur grâce à un autre programme appelé Compilateur ou interpréteur. 
+        Exemple le programme javac inclus dans Eclipse. 
+    </p>
+    <p>
+        La compilation vérifie la correction de la syntaxe du programme source, 
+        puis génère une liste d’erreurs ou un programme exécutable.
+    </p>
+
+    <h2 id="test">Le test du programme</h2>
+    <p>
+        Cette phase permet de vérifier que le programme réalise 
+        les résultats escomptés et qu’il ne présente pas de dysfonctionnement. 
+        Une batterie de tests doit être préparée pour cette vérification.
+    </p>
+
+    <a href="#top"> <img class="droite" src="../images/fleche.png" width="40"></a>
+</body>
